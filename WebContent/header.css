@@ -1,0 +1,553 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+Skip to content
+This repository  
+Search
+Pull requests
+Issues
+Gist
+ @adorris1
+ Unwatch 5
+  Star 0
+ Fork 0 NDScsc481/PaperBoy
+ Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs  Settings
+Branch: mattbranch Find file Copy pathPaperBoy/WebContent/header.css
+4d841d2  8 hours ago
+ matt Major Front end changes. Header.css complete overhaul
+1 contributor
+RawBlameHistory     102 lines (94 sloc)  1.74 KB
+=======
+<<<<<<< HEAD
+body { 
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px; 
+	color: #00000; 
+	background-image: url(./images/paper.png);
+}   
+/**************** Pseudo classes ****************/ 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;  
+}
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+li:last-child {
+    border-right: none;
+}
+li a {
+    display: block; 
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #bd9c7b;
+}
+h1 {
+    margin: 10px;
+}
+a{
+	color: #ffffff
+}
+a:hover{
+	color: #ffffff
+}
+p.login{
+	text-align:center;
+} 
+/************************* ID's  *************************/ 
+#header {
+  	position: relative;
+	float: center;
+	height: 200px;
+	background-image: url(./images/logo3.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}  
+#nav { 	
+	position: relative;	
+    background-color: #203331;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    float:center;	
+} 
+#bckgrnd{
+	position: relative;
+	background-image: url(./images/wood.png);
+	z-index: 1;
+	margin-top: 10px;
+	margin-left: 100px;
+    margin-right: 100px;
+    height: 450px;
+	float: center;
+	color: #ffffff;	
+}
+#section{
+	z-index:2;
+	color: #000000;
+	position: absolute;	
+	margin-top: 50px;
+	margin-left: 50px;
+    margin-right: 50px;
+	margin-bottom: 50px;	
+}
+#footer {	
+	position: relative;
+	margin-left: 100px;
+	margin-right: 100px;
+	float: center;
+    color:black;
+    clear:both;
+    text-align:center;
+   	 
+}
+=======
+Skip to content
+This repository  
+Search
+Pull requests
+Issues
+Gist
+ @adorris1
+ Unwatch 5
+  Star 0
+ Fork 0 NDScsc481/PaperBoy
+ Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs  Settings
+Branch: mattbranch Find file Copy pathPaperBoy/WebContent/header.css
+4d841d2  8 hours ago
+ matt Major Front end changes. Header.css complete overhaul
+1 contributor
+RawBlameHistory     102 lines (94 sloc)  1.74 KB
+=======
+Skip to content
+This repository  
+Search
+Pull requests
+Issues
+Gist
+ @adorris1
+ Unwatch 5
+  Star 0
+ Fork 0 NDScsc481/PaperBoy
+ Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs  Settings
+Branch: mattbranch Find file Copy pathPaperBoy/WebContent/header.css
+4d841d2  8 hours ago
+ matt Major Front end changes. Header.css complete overhaul
+1 contributor
+RawBlameHistory     102 lines (94 sloc)  1.74 KB
+body { 
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px; 
+	color: #333333; 
+	background-image: url(./images/paper.png);
+}   
+/**************** Pseudo classes ****************/ 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;  
+}
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+li:last-child {
+    border-right: none;
+}
+li a {
+    display: block; 
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #bd9c7b;
+}
+h1 {
+    margin: 10px;
+}
+a{
+	color: #ffffff
+}
+a:hover{
+	color: #ffffff
+}
+p.login{
+	text-align:center;
+} 
+/************************* ID's  *************************/ 
+#header {
+  	position: relative;
+	float: center;
+	height: 200px;
+	background-image: url(./images/logo3.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}  
+#nav { 	
+	position: relative;	
+    background-color: #203331;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    float:center;	
+} 
+#bckgrnd{
+	position: relative;
+	background-image: url(./images/wood.png);
+	z-index: 1;
+	margin-top: 10px;
+	margin-left: 100px;
+    margin-right: 100px;
+    height: 450px;
+	float: center;
+	color: #ffffff;	
+}
+#section{
+	z-index:2;
+	color: #000000;
+	position: absolute;	
+	margin-top: 50px;
+	margin-left: 50px;
+    margin-right: 50px;
+	margin-bottom: 50px;	
+}
+#footer {	
+	position: relative;
+	margin-left: 100px;
+	margin-right: 100px;
+	float: center;
+    color:black;
+    clear:both;
+    text-align:center;
+   	 
+}
+Status API Training Shop Blog About Pricing
+© 2015 GitHub, Inc. Terms Privacy Security Contact Help
+=======
+>>>>>>> master
+>>>>>>> master
+body { 
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px; 
+<<<<<<< HEAD
+	color: #333333; 
+	background-image: url(./images/paper.png);
+}   
+/**************** Pseudo classes ****************/ 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;  
+}
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+li:last-child {
+    border-right: none;
+}
+li a {
+    display: block; 
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #bd9c7b;
+}
+h1 {
+    margin: 10px;
+}
+a{
+	color: #ffffff
+}
+a:hover{
+	color: #ffffff
+}
+p.login{
+	text-align:center;
+} 
+/************************* ID's  *************************/ 
+#header {
+  	position: relative;
+	float: center;
+	height: 200px;
+	background-image: url(./images/logo3.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}  
+#nav { 	
+	position: relative;	
+    background-color: #203331;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    float:center;	
+} 
+#bckgrnd{
+	position: relative;
+	background-image: url(./images/wood.png);
+	z-index: 1;
+	margin-top: 10px;
+	margin-left: 100px;
+    margin-right: 100px;
+    height: 450px;
+	float: center;
+	color: #ffffff;	
+}
+#section{
+	z-index:2;
+	color: #000000;
+	position: absolute;	
+	margin-top: 50px;
+	margin-left: 50px;
+    margin-right: 50px;
+	margin-bottom: 50px;	
+}
+#footer {	
+	position: relative;
+	margin-left: 100px;
+	margin-right: 100px;
+	float: center;
+    color:black;
+    clear:both;
+    text-align:center;
+   	 
+}
+Status API Training Shop Blog About Pricing
+© 2015 GitHub, Inc. Terms Privacy Security Contact Help
+=======
+>>>>>>> a6dcfcfcbca8a4c07535ca5f7ef92de01fa8f224
+body { 
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px; 
+<<<<<<< HEAD
+	color: #333333; 
+	background-image: url(./images/paper.png);
+}   
+
+=======
+<<<<<<< HEAD
+	color: #333333; 
+>>>>>>> master
+=======
+	color: #00000; 
+>>>>>>> master
+	background-image: url(./images/paper.png);
+}   
+>>>>>>> a6dcfcfcbca8a4c07535ca5f7ef92de01fa8f224
+/**************** Pseudo classes ****************/ 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;  
+}
+<<<<<<< HEAD
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block; 
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #bd9c7b;
+}
+
+h1 {
+    margin: 10px;
+}
+a{
+	color: #ffffff
+}
+a:hover{
+	color: #ffffff
+}
+p.login{
+	text-align:center;
+} 
+/************************* ID's  *************************/ 
+#header {
+  	position: relative;
+	float: center;
+	height: 200px;
+	background-image: url(./images/logo3.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}  
+#nav { 	
+	position: relative;	
+    background-color: #203331;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    float:center;	
+} 
+#bckgrnd{
+	position: relative;
+	background-image: url(./images/wood.png);
+	z-index: 1;
+	margin-top: 10px;
+	margin-left: 100px;
+    margin-right: 100px;
+    height: 450px;
+	float: center;
+	color: #ffffff;	
+}
+#section{
+	z-index:2;
+	color: #000000;
+	position: absolute;	
+	margin-top: 50px;
+	margin-left: 50px;
+    margin-right: 50px;
+	margin-bottom: 50px;	
+}
+#footer {	
+	position: relative;
+	margin-left: 100px;
+	margin-right: 100px;
+	float: center;
+    color:black;
+    clear:both;
+    text-align:center;
+   	 
+=======
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+li:last-child {
+    border-right: none;
+}
+li a {
+    display: block; 
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #bd9c7b;
+>>>>>>> a6dcfcfcbca8a4c07535ca5f7ef92de01fa8f224
+}
+h1 {
+    margin: 10px;
+}
+a{
+	color: #ffffff
+}
+a:hover{
+	color: #ffffff
+}
+p.login{
+	text-align:center;
+} 
+/************************* ID's  *************************/ 
+#header {
+  	position: relative;
+	float: center;
+	height: 200px;
+	background-image: url(./images/logo3.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}  
+#nav { 	
+	position: relative;	
+    background-color: #203331;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    float:center;	
+} 
+#bckgrnd{
+	position: relative;
+	background-image: url(./images/wood.png);
+	z-index: 1;
+	margin-top: 10px;
+	margin-left: 100px;
+    margin-right: 100px;
+    height: 450px;
+	float: center;
+	color: #ffffff;	
+}
+#section{
+	z-index:2;
+	color: #000000;
+	position: absolute;	
+	margin-top: 50px;
+	margin-left: 50px;
+    margin-right: 50px;
+	margin-bottom: 50px;	
+}
+#footer {	
+	position: relative;
+	margin-left: 100px;
+	margin-right: 100px;
+	float: center;
+    color:black;
+    clear:both;
+    text-align:center;
+   	 
+}
+<<<<<<< HEAD
+Status API Training Shop Blog About Pricing
+© 2015 GitHub, Inc. Terms Privacy Security Contact Help
+>>>>>>> master
+=======
+>>>>>>> Nathan_Branch
+>>>>>>> master

@@ -1,0 +1,19 @@
+Lee's Deliveries
+123 Street
+City, State 90000
+Phone: 1231231234
+E-mail: ask@example.com
+
+                                   INVOICE      #2015-11-23-45
+                                   BILL PERIOD: October 2015
+
+BILL/SHIP TO:
+Pierce Bryce
+4954 Collingwood Dr
+San Diego, CA 92109
+
+PUBLICATION INFORMATION            SUBSCRIPTION PERIOD           PRICE
+Cosmopolitan                       2015-11-16 to 2016-11-16      6.25
+
+
+TOTAL DUE:     6.25                         Date Printed: 2015-11-23
